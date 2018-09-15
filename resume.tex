@@ -1,0 +1,187 @@
+%-------------------------
+% Resume in Latex
+% Original Author : Sourabh Bajaj
+% Author : Solaiman Mansyur
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://solaiman.me/}{\Large Solaiman Mansyur}} & Email : \href{mailto:solaiman.mansyur@gmail.com}{solaiman.mansyur@gmail.com}\\
+  \href{https://solaiman.me}{https://www.solaiman.me} & Mobile : +60-11-391-47821 \\
+\end{tabular*}
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Metacloud Sdn Bhd (Sunway Technology Group)}{Petaling Jaya, Malaysia}
+      {Senior Software Engineer}{Jan 2017 - Present}
+      \resumeItemListStart
+        \resumeItem{3 Way Invoice Matching Integration}
+          {ERP, e-Procurement and Invoice Matching system integration.}
+        \resumeItem{Microservice Architecture}
+          {e-Procurement from monolith to microservice architecture.}
+        \resumeItem{SRE Implementation}
+          {From bi-weekly deployment, now can deploy multiple times a day without down time.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Logistics Consulting Asia Sdn Bhd}{Petaling Jaya, Malaysia}
+      {Application Developer}{Sep 2015 - Jan 2017}
+      \resumeItemListStart
+        \resumeItem{Distributed data Syncrhonization}
+          {Distributor Management System in more than 300 instances accross South-East Asia.}
+        \resumeItem{Data Warehousing}
+          {Maintenance and operation of OLTP databases.}
+        \resumeItem{Data ETL Processing}
+          {Procesing OLTP data sets into OLAP data sets.}
+        \resumeItem{Data ETL Monitoring}
+          {Monitoring the ETL processes, write the logs and showing the progress.}
+        \resumeItem{BI Dashboard}
+          {Business Intelligence Dashboard.}
+        \resumeItem{SSO Security Enhancement}
+          {Single sign on security enhancement.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {CloudApps Technologies Sdn Bhd}{Kuala Lumpur (remote), Malaysia}
+      {Senior Software Engineer}{Feb 2015 - Aug 2015}
+      \resumeItemListStart
+        \resumeItem{Cloud-Based Accounting Application}
+          {SaaS accounting application.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {EwakooLabs}{Makassar, Indonesia}
+      {Software Engineer}{Jan 2013 - Jan 2015}
+      \resumeItemListStart
+        \resumeItem{CBT Simulator}
+          {An application to practice the exam using computer-based test methodology}
+        \resumeItem{GladiResik}
+          {A system to simulate university submission in Indonesia. Used by more than 30,000 users.}
+        \resumeItem{OneSchoolApp}
+          {A web based application for a smme english course institutions in Indonesia.}
+        \resumeItem{TaxIS}
+          {Fleet information system.}
+        \resumeItem{TohaPutraPOS}
+          {Point of Sales Application for the biggest Quran Publisher in Indonesia, Toha Putra.}
+        \resumeItem{Sisdiklat}
+          {Web based application organized their training events and submissions.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {CV. Unggul Visi Utama}{Makassar, Indonesia}
+      {Software Engineer}{July 2012 - Dec 2012}
+      \resumeItemListStart
+        \resumeItem{iSILK}
+          {Medical Laboratory Information System.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Jakarta Intensive Learning Center}{Makassar, Indonesia}
+      {Desktop Software Engineer}{July 2012 - Dec 2012}
+      \resumeItemListStart
+        \resumeItem{Student Information System - Cloud based}
+          {Migrating Desktop based system to the cloud.}
+        \resumeItem{Online Employee Attendance}
+          {Managing attendance for about 200 of employees.}
+        \resumeItem{Student Information System}
+          {Desktop application for student information system.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------Skills-----------------
+\section{Skills}
+  \resumeSubHeadingListStart
+    \resumeSubItem{SRE and Cloud Infrastructure}
+      {Amazon Web Service, Google Cloud Platform, Heroku, Linux, Apache, Nginx, Docker, Jenkins, Git}
+    \resumeSubItem{Web Programming}
+      {PHP, Laravel, Python, MySQL, PostgreSQL, MongoDB, Javascript}
+    \resumeSubItem{Language}
+      {Bahasa Indonesia, English, Arabic}
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Hasanuddin University}{Makassar, Indonesia}
+      {Bachelor of Engineering in Information Technology;  GPA: 3.53}{Oct. 2010 -- Dec. 2012}
+    \resumeSubheading
+      {Hasanuddin University}{Makassar, Indonesia}
+      {Diploma of Engineering in Electrical and Electronics;  GPA: 3.63}{Aug. 2004 -- July. 2007}
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
